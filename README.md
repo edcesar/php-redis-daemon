@@ -34,3 +34,5 @@ foo@bar:~$ php index.php
 - sudo service rotinasCadastros-daemon status
 
 
+## Video com o exemplo:
+### https://youtu.be/caCy7yodlvw
