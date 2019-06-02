@@ -1,0 +1,10 @@
+[Unit]
+Description=Rotinas após cadastro
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/php7.3 -d "default_socket_timeout=-1" -f /home/newday/apps/redis/publish/workers/aposCadastro.php
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,162 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8e2471e05d2e95081a93cce0a3e6d06d",
+    "packages": [
+        {
+            "name": "predis/predis",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-curl": "Allows access to Webdis when paired with phpiredis",
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "time": "2016-06-16T16:22:20+00:00"
+        },
+        {
+            "name": "superbalist/php-pubsub",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Superbalist/php-pubsub.git",
+                "reference": "f6ee71596edc824241cb6138af20ae440e613f35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Superbalist/php-pubsub/zipball/f6ee71596edc824241cb6138af20ae440e613f35",
+                "reference": "f6ee71596edc824241cb6138af20ae440e613f35",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "^5.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Superbalist\\PubSub\\": "src/",
+                    "Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Superbalist.com a division of Takealot Online (Pty) Ltd",
+                    "email": "info@superbalist.com"
+                }
+            ],
+            "description": "An adapter based PubSub package for PHP",
+            "time": "2017-05-16T09:52:04+00:00"
+        },
+        {
+            "name": "superbalist/php-pubsub-redis",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Superbalist/php-pubsub-redis.git",
+                "reference": "dd6b24c598be8800517c8bebb5cbf154613afd97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Superbalist/php-pubsub-redis/zipball/dd6b24c598be8800517c8bebb5cbf154613afd97",
+                "reference": "dd6b24c598be8800517c8bebb5cbf154613afd97",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "predis/predis": "^0.8|^1.0|^1.1",
+                "superbalist/php-pubsub": "^2.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "^5.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Superbalist\\PubSub\\Redis\\": "src/",
+                    "Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Superbalist.com a division of Takealot Online (Pty) Ltd",
+                    "email": "info@superbalist.com"
+                }
+            ],
+            "description": "A Redis adapter for the php-pubsub package",
+            "time": "2017-05-16T11:26:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
