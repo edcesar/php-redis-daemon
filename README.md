@@ -21,6 +21,7 @@ foo@bar:~$ sudo systemctl enable rotinasCadastros-daemon.service
 ``
 foo@bar:~$ sudo service rotinasCadastros-daemon start
 ``
+
 ``
 foo@bar:~$ php index.php
 ``
